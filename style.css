@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.form-container {
+  position: relative;
+  float: left;
+  width: 400px;
+  min-height: 10px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+.form-container-header {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  border: 0;
+  margin-top: 40px;
+}
+.form-error-div,
+.form-success-div {
+  position: relative;
+  float: left;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  min-height: 0px;
+  margin: 0;
+  border: 0;
+  margin-top: 40px;
+  padding: 15px 0px;
+  font-size: 15px;
+  text-align: center;
+}
+.form-error-div {
+  background: rgba(255, 0, 0, 0.5);
+}
+.form-success-div {
+  background: rgba(0, 255, 0, 0.5);
+}
+.form-container-input {
+  position: relative;
+  float: left;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 40px;
+  margin-top: 40px;
+  border: transparent;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0px 20px;
+}
+.form-forgot {
+  position: relative;
+  float: left;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  text-align: right;
+  margin: 0;
+  border: 0;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.forgot-link {
+  color: #3498db;
+  cursor: pointer;
+}
+.submit-btn {
+  position: relative;
+  float: left;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: transparent;
+  background: #8e44ad;
+  color: white;
+  font-weight: bold;
+}
+.switch {
+  position: relative;
+  float: left;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #3498db;
+}
